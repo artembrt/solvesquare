@@ -6,8 +6,7 @@
 
 int main()
 	{
-	printf("\033[1;31mThis is bold red text\033[0m\n");
-	printf ("\033[1;31mSquare equation solver\033[0m\n");
+	printf (COLOR_RED "Square equation solver" COLOR_RESET);
 	printf ("Enter a,b,c\n");
 
 	double x1 = 0, x2 = 0;
